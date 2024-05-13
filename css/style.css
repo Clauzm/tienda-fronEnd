@@ -210,6 +210,20 @@ h3 {
   gap: 2rem;
 }
 
+@media (min-width: 768px){
+  .bloques{
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 .bloque{
   text-align: center; /**Agregado**/
+}
+
+.bloque__imagen{
+  width: 100%;
+}
+
+.bloque_titulo{
+  margin: 0;
 }
