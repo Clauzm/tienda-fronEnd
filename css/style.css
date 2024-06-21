@@ -38,7 +38,7 @@ a {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
 }
 
 .contenedor {
@@ -131,11 +131,6 @@ h3 {
   padding: 1rem;
 }
 
-.producto__imagen {
-  width: 100%;
-
-}
-
 .producto__nombre {
   font-size: 4rem;
 
@@ -193,7 +188,6 @@ h3 {
 
 .nosotros__imagen {
   grid-row: 1 / 2;
-  width: 100%;
 }
 
 @media (min-width: 768px){
@@ -220,10 +214,7 @@ h3 {
   text-align: center; /**Agregado**/
 }
 
-.bloque__imagen{
-  width: 100%;
-}
-
 .bloque_titulo{
   margin: 0;
 }
+
