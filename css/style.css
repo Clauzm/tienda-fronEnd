@@ -218,3 +218,32 @@ h3 {
   margin: 0;
 }
 
+@media (min-width: 768px){
+  .camisa {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+  }
+}
+
+.formulario{
+
+}
+
+.formulario__campo{
+
+}
+
+.formulario__submit{
+  background-color: var(--secundario);
+  border: none;
+  font-size: 2rem;
+  font-family: var(--fuentePrincipal);
+  padding: 2rem;
+  transition: background-color .3s ease;
+}
+
+.formulario__submit:hover{
+  cursor: pointer;
+  background-color: var(--secundarioOscuro);
+}
